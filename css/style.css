@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
 }
 .sec-padding {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 .sec-title {
     text-align: center;
@@ -50,9 +50,6 @@ ul.menu {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-ul.menu li {
-
 }
 ul.menu li a {
     text-decoration: none;
@@ -92,9 +89,11 @@ Banner Area CSS
     font-weight: 700;
     line-height: 70px;
     margin: 15px 0;
+    transition: all 1s;
 }
 .banner-left p {
     font-weight: 600;
+    text-align: justify;
 }
 .banner-right {
     display: flex;
@@ -102,6 +101,16 @@ Banner Area CSS
 }
 .banner-right img {
     width: 100%;
+    transition: all 1s;
+}
+.banner:hover .banner-right img {
+    transform: rotate(45deg) scale(1.2) ;
+}
+.banner:hover .banner-title h1 {
+    color: #E02C6D;
+}
+.banner:hover .igear-btn {
+    transform: scale(1.2);
 }
 .igear-btn {
     background-color: #E02C6D;
@@ -111,6 +120,7 @@ Banner Area CSS
     font-weight: 700;
     border: none;
     cursor: pointer;
+    transition: all 1s;
 }
 .igear-btn span {
     margin-left: 5px;
@@ -120,16 +130,14 @@ Logos Area CSS
 ------------------ */
 .logos-area {
 
-
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     /* border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%); */
     
 }
 .logos {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    padding: 30px 0;
 }
 .logos img {
     cursor: pointer;
