@@ -109,4 +109,12 @@ Mobile Devices CSS
         align-content: center;
     }
 
+    /* Unlock Power Area  */
+    .unlock-power-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+        padding: 15px;
+    }
+
 }

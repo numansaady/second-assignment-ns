@@ -111,14 +111,18 @@ Banner Area CSS
 }
 .banner:hover .igear-btn {
     transform: scale(1.2);
+    background-color: #fff;
+    border: 2px solid #E02C6D;
+    color: #E02C6D;
+
 }
 .igear-btn {
     background-color: #E02C6D;
+    border: 2px solid #E02C6D;
     border-radius: 40px;
     padding: 15px 25px;
     color: #fff;
     font-weight: 700;
-    border: none;
     cursor: pointer;
     transition: all 1s;
 }
@@ -192,7 +196,28 @@ Products Area CSS
 /* ------------------
 Testimonial Area CSS
 ------------------ */
-
+.unlock-power {
+    background-color: rgb(59 130 246 / 50%);
+    border-radius: 16px;
+    padding: 20px 10px;
+}
+.unlock-power-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    padding: 15px;
+}
+.unlock-power-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+}
+.unlock-power-card h3, p {
+    margin: 8px 0;
+}
+.unlock-power-card i {
+    font-size: 30px;
+}
 /* ------------------
 Footer Area CSS
 ------------------ */
