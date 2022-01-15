@@ -67,8 +67,11 @@ ul.menu li a:hover {
 .nav-right .search-icon {
     padding: 15px 15px;
 }
-.nav-right .cart {
+.nav-right .nav-cart {
     padding: 15px 0px 15px 15px;
+}
+#nav-toggler, .nav-bars {
+    display: none;
 }
 
 
@@ -96,6 +99,9 @@ Banner Area CSS
 .banner-right {
     display: flex;
     justify-content: center;
+}
+.banner-right img {
+    width: 100%;
 }
 .igear-btn {
     background-color: #E02C6D;
@@ -138,7 +144,7 @@ Products Area CSS
     gap: 50px;
 }
 .product {
-    width: 340px;
+    max-width: 340px;
     height: 480px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;

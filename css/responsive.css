@@ -1,0 +1,81 @@
+/* -----------------------
+Tablet Devices CSS 
+------------------------ */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 740px;
+    }
+
+    /* banner area  */
+    .banner-title h1 {
+        font-size: 32px;
+        line-height: 50px;
+        margin: 15px 0;
+    }
+    .banner-left p {
+        font-weight: 400;
+    }
+
+    /* Products Area  */
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+    
+
+}
+
+/* -----------------------
+Mobile Devices CSS 
+------------------------ */
+@media screen and (max-width: 480px) {
+    /* Header Area  */
+    nav {
+        padding: 0px 15px;
+    }
+    .nav-bars {
+        display: block;
+        order: 1;
+    }
+    nav .logo {
+        order: 2;
+    }
+    .nav-right {
+        order: 3;
+    }
+    ul.menu {
+        display: none;
+    }
+    nav .logo img {
+        width: 100px;
+        height: 30px;
+    }
+    nav .search-icon {
+        display: none;
+    }
+    #nav-toggler:checked ul.menu {
+        display: block;
+    }
+
+    /* Banner Area  */
+    .banner {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 40px;
+        text-align: center;
+    }
+    .banner-left {
+        order: 2;
+    }
+    .banner-right {
+        order: 1;
+    }
+
+    /* Products Area  */
+    .products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+        align-content: center;
+    }
+
+}
