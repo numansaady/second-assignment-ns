@@ -97,6 +97,9 @@ Mobile Devices CSS
     }
 
     /* Logos Area  */
+    .logos {
+        padding: 20px 0;
+    }
     .logos img {
         width: 30px;
     }
