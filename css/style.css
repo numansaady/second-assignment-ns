@@ -75,9 +75,6 @@ ul.menu li a:hover {
 /* ------------------
 Banner Area CSS
 ------------------ */
-.banner-area {
-
-}
 .banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -104,7 +101,7 @@ Banner Area CSS
     transition: all 1s;
 }
 .banner:hover .banner-right img {
-    transform: rotate(45deg) scale(1.2) ;
+    transform: rotate(40deg) scale(1.2) ;
 }
 .banner:hover .banner-title h1 {
     color: #E02C6D;
@@ -132,16 +129,10 @@ Banner Area CSS
 /* ------------------
 Logos Area CSS
 ------------------ */
-.logos-area {
-
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    /* border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%); */
-    
-}
 .logos {
     display: flex;
     justify-content: space-between;
+    padding: 40px 0;
 }
 .logos img {
     cursor: pointer;
